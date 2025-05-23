@@ -1,12 +1,12 @@
 import React from "react";
+import LoginPage from "./pages/LoginPage";
 
-function App() {
+function Appp() {
   return (
     <div>
-      <h1>Welcome to AutoAccount Frontend</h1>
-      <p>Your personal accounting assistant built with React.</p>
+      <LoginPage/>
     </div>
   );
 }
 
-export default App;
+export default Appp;
