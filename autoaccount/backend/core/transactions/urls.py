@@ -7,3 +7,4 @@ urlpatterns = [
     path('transactions/<int:pk>/', TransactionUpdateView.as_view(), name='edit-transaction'),
     path('categories/', CategoryListCreateView.as_view(), name='category-list-create')
 ]
+
